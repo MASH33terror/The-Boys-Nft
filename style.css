@@ -65,23 +65,24 @@ header nav ul a {
   width: 50%;
 }
 .sec1 h1 {
-  font-weight: 800;
   text-align: center;
-  font-size: 96px;
-  line-height: 112px;
   letter-spacing: 0.03em;
+  width: 500px;
 }
 .sec1 h1 .BLUE {
   background: linear-gradient(180deg, rgba(247, 247, 247, 0.63) 0%, #86a2cb 51.56%, #86a2cb 71.35%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  font-size: 96px;
+  font-weight: 800;
 }
 .sec1 h1 .WHITE {
   font-weight: 700;
   line-height: 112px;
   letter-spacing: 0.03em;
   color: #ffffff;
+  font-size: 96px;
 }
 .sec1 .text {
   display: flex;
@@ -90,12 +91,30 @@ header nav ul a {
   gap: 70px;
 }
 .sec1 .text button {
-  background: #749AD3;
-  padding: 10px 10px;
+  background: #749ad3;
+  padding: 10px 15px;
   border: none;
   color: white;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 17px;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.sec2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5%;
+}
+.sec2 h1 {
+  color: white;
+  font-weight: 800;
+  font-size: 40px;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000;
+}
+.sec2 img {
+  width: 40%;
 }
 
 @media (max-width: 884px) {
@@ -145,7 +164,15 @@ header nav ul a {
     flex-direction: column;
     align-items: center;
   }
-  .sec1 .text h1 {
+  .sec1 .text span {
     font-size: 20px;
+  }
+  .sec1 .text h1 {
+    height: 40px;
+    text-align: center;
+    width: 100%;
+  }
+  .sec1 .text button {
+    font-size: 12px;
   }
 }/*# sourceMappingURL=style.css.map */
