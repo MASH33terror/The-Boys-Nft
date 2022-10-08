@@ -103,18 +103,31 @@ header nav ul a {
 
 .sec2 {
   display: flex;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  justify-content: space-around;
-  padding: 5%;
+  justify-content: space-between;
+  padding: 5% 15%;
+  margin: auto;
 }
 .sec2 h1 {
   color: white;
   font-weight: 800;
-  font-size: 40px;
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000;
 }
+.sec2 .info {
+  width: 300px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.sec2 h2 {
+  text-align: left;
+  color: #fff;
+  font-weight: 500;
+}
 .sec2 img {
-  width: 40%;
+  width: 80%;
 }
 
 @media (max-width: 884px) {
@@ -174,5 +187,8 @@ header nav ul a {
   }
   .sec1 .text button {
     font-size: 12px;
+  }
+  .sec2 {
+    font-size: 10px;
   }
 }/*# sourceMappingURL=style.css.map */

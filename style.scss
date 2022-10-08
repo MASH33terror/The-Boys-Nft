@@ -120,19 +120,34 @@ header {
 
 .sec2 {
   display: flex;
+  grid-template-columns: repeat(2,1fr);
   align-items: center;
-  justify-content: space-around;
-  padding: 5%;
+  justify-content: space-between;
+  padding: 5% 15%;
+  margin: auto;
+
 
   h1 {
     color: white;
     font-weight: 800;
-    font-size: 40px;
     text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000;
   }
 
+ .info {
+    width: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+ }
+
+ h2 {
+    text-align: left;
+    color: #fff;
+    font-weight: 500;
+ }
   img {
-    width: 40%;
+    width: 80%;
   }
 }
 @media (max-width: 884px) {
@@ -201,5 +216,11 @@ header {
     button {
       font-size: 12px;
     }
+  }
+
+
+  .sec2 {
+    // flex-wrap: wrap;
+    font-size: 10px;
   }
 }
