@@ -1,16 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Sora:wght@300;400;500;600;700&display=swap");
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   text-decoration: none;
-  list-style: none;
 }
 
 body {
   background-color: #182e50;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -40,6 +39,7 @@ header {
       display: flex;
       align-items: center;
       gap: 40px;
+      list-style: none;
 
       a {
         font-weight: 700;
@@ -120,34 +120,318 @@ header {
 
 .sec2 {
   display: flex;
-  grid-template-columns: repeat(2,1fr);
   align-items: center;
   justify-content: space-between;
-  padding: 5% 15%;
-  margin: auto;
-
+  padding: 5% 9%;
+  margin-top: 40px;
 
   h1 {
     color: white;
     font-weight: 800;
-    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: rgba(107, 133, 173, 1);
+    -webkit-text-stroke-width: 3px;
+    font-size: 72px;
+    filter: blur(1px);
   }
 
- .info {
-    width: 300px;
+  .info {
     text-align: left;
     display: flex;
     flex-direction: column;
     gap: 40px;
- }
+  }
 
- h2 {
+  h2 {
     text-align: left;
     color: #fff;
     font-weight: 500;
- }
+    font-size: 20px;
+  }
+
   img {
-    width: 80%;
+    width: 50%;
+  }
+}
+
+.sec3 {
+  padding: 5% 9%;
+
+  h1 {
+    color: white;
+    font-weight: 800;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: rgba(107, 133, 173, 1);
+    -webkit-text-stroke-width: 2px;
+    font-size: 40px;
+  }
+
+  .roadmap {
+    margin-top: 50px;
+    padding: 5% 5%;
+  }
+
+  .semester1 {
+    list-style: bullet;
+
+    h1 {
+      text-align: center;
+    }
+
+    p {
+      color: #ffffff;
+      transform: rotate(-0.08deg);
+      font-weight: 300;
+      margin-top: 30px;
+    }
+
+    h3 {
+      text-align: center;
+      color: white;
+      font-weight: 800;
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke-color: rgba(107, 133, 173, 1);
+      -webkit-text-stroke-width: 1px;
+      font-size: 20px;
+      margin-top: 30px;
+    }
+
+    li {
+      color: #fff;
+      font-weight: 300;
+    }
+  }
+
+  .semester2 {
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
+
+    p {
+      color: #fff;
+    }
+
+    li {
+      color: #fff;
+    }
+  }
+
+  .charity {
+    h1 {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    p {
+      color: #fff;
+      margin-top: 30px;
+    }
+  }
+
+  .giveaway {
+    h1 {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    p {
+      color: #fff;
+      margin-top: 30px;
+    }
+  }
+
+  .scholarship {
+    h1 {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    p {
+      color: #fff;
+      margin-top: 30px;
+    }
+  }
+
+  .hold {
+    h1 {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    p {
+      color: #fff;
+      margin-top: 30px;
+    }
+
+    li {
+      color: #fff;
+    }
+  }
+
+  .merch {
+    h1 {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    p {
+      color: #fff;
+      margin-top: 30px;
+    }
+  }
+
+  .meta {
+    h1 {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    p {
+      color: #fff;
+      margin-top: 30px;
+    }
+  }
+}
+
+.sec4 {
+  padding: 5% 9%;
+
+  h1 {
+    color: white;
+    font-weight: 800;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: rgba(107, 133, 173, 1);
+    -webkit-text-stroke-width: 2px;
+    font-size: 40px;
+    margin-bottom: 60px;
+  }
+
+  h5 {
+    border-inline-start: 3px solid;
+    border-block-start: 3px solid;
+    border-inline-end: 3px solid;
+    border-block-end: 3px-solid;
+    border-image-source: radial-gradient(
+      circle at top left,
+      rgba(134, 162, 203, 1),
+      transparent 25%
+    );
+    border-image-slice: 1;
+    padding: 20px;
+    width: 220px;
+    margin: auto;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+}
+
+.sec5 {
+  padding: 5% 9%;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+
+  h1 {
+    color: white;
+    font-weight: 800;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: rgba(107, 133, 173, 1);
+    -webkit-text-stroke-width: 2px;
+    font-size: 40px;
+    margin-bottom: 60px;
+  }
+
+  .name {
+    h4 {
+      width: 239px;
+      text-align: left;
+      color: white;
+    }
+  }
+
+  .bigsvg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+      color: #fff;
+    }
+
+    img {
+      width: 400px;
+    }
+  }
+
+  .others {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+    img {
+      width: 150px;
+    }
+  }
+}
+
+.sec6 {
+  padding: 5% 9%;
+
+  h4 {
+    color: #fff;
+  }
+  a {
+    color: rgba(103, 162, 232, 1);
+  }
+
+   .discord {
+    margin-top: 50px;
+
+    h5 {
+      font-size: 25px;
+      color: #fff;
+
+    }
+
+    span {
+      font-size: 19px;
+    }
+   }
+
+  button {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    padding: 0px 10px;
+    gap: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 42px;
+
+    color: #000000;
+
+    img {
+      width: 35px;
+    }
+  }
+
+  .discord {
+    display: flex;
+    align-items: center;
+    gap: 25%;
   }
 }
 @media (max-width: 884px) {
@@ -218,9 +502,21 @@ header {
     }
   }
 
-
   .sec2 {
-    // flex-wrap: wrap;
-    font-size: 10px;
+    margin-top: 40px;
+
+    .info {
+      h1 {
+        font-size: 20px;
+      }
+
+      h2 {
+        font-size: 12px;
+      }
+    }
+
+    img {
+      width: 80%;
+    }
   }
 }
