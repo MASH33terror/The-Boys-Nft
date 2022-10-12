@@ -439,7 +439,7 @@ footer img {
     margin-top: 40px;
   }
   .sec2 .info h1 {
-    font-size: 20px;
+    font-size: 25px;
   }
   .sec2 .info h2 {
     font-size: 12px;
@@ -447,11 +447,37 @@ footer img {
   .sec2 img {
     width: 80%;
   }
-}
-.sec3 h1 {
-  font-size: 20px;
-  -webkit-text-stroke-width: 1px;
-}
-.sec3 p {
-  font-size: 15px;
+  .sec3 h1 {
+    font-size: 25px;
+    -webkit-text-stroke-width: 1px;
+  }
+  .sec3 h3 {
+    font-size: 15px;
+  }
+  .sec3 p {
+    font-size: 12px;
+    font-weight: 300;
+    font-weight: 500;
+  }
+  .sec3 li {
+    font-size: 12px;
+  }
+  .sec3 .semester1 h3 {
+    font-size: 18px;
+  }
+  .sec4 h1 {
+    font-size: 23px;
+  }
+  .sec5 .flex {
+    flex-wrap: wrap;
+  }
+  .sec5 h1 {
+    font-size: 23px;
+  }
+  .sec5 .bigsvg img {
+    width: 200%;
+  }
+  .sec5 .others img {
+    width: 50PX;
+  }
 }/*# sourceMappingURL=style.css.map */

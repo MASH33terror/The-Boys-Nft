@@ -530,7 +530,7 @@ footer {
 
     .info {
       h1 {
-        font-size: 20px;
+        font-size: 25px;
       }
 
       h2 {
@@ -542,17 +542,66 @@ footer {
       width: 80%;
     }
   }
-}
 
-.sec3 {
+  .sec3 {
    
-  h1 {
-    font-size: 20px;
-    -webkit-text-stroke-width: 1px;
+    h1 {
+      font-size: 25px;
+      -webkit-text-stroke-width: 1px;
+    }
+  
+    h3 {
+      font-size: 15px;
+    }
+  
+    p {
+      font-size: 12px;
+      font-weight: 300;
+      font-weight: 500;
+    }
+  
+    li {
+      font-size: 12px;
+    }
+  
+  
+    .semester1 {
+  
+      h3 {
+        font-size: 18px;
+      }
+    }
   }
 
-  p {
-    font-size: 15px;
+
+  .sec4 {
+
+    h1 {
+      font-size: 23px;
+    }
   }
 
+
+  .sec5 {
+
+
+    .flex {
+      flex-wrap: wrap;
+    }
+
+    h1 {
+      font-size: 23px;
+    }
+
+    .bigsvg img {
+      
+      width: 200%;
+    }
+    .others img {
+      width: 50PX;
+    }
+  }
+
+ 
 }
+
