@@ -395,19 +395,18 @@ header {
     color: rgba(103, 162, 232, 1);
   }
 
-   .discord {
+  .discord {
     margin-top: 50px;
 
     h5 {
       font-size: 25px;
       color: #fff;
-
     }
 
     span {
       font-size: 19px;
     }
-   }
+  }
 
   button {
     display: flex;
@@ -431,7 +430,31 @@ header {
   .discord {
     display: flex;
     align-items: center;
-    gap: 25%;
+    gap: 31%;
+  }
+}
+
+footer {
+  padding: 5% 5%;
+  padding-bottom: 1%;
+  color: #ffffff;
+  h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+
+  .socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+  }
+
+  img {
+    width: 40px;
+    height: 30px;
   }
 }
 @media (max-width: 884px) {
@@ -519,4 +542,17 @@ header {
       width: 80%;
     }
   }
+}
+
+.sec3 {
+   
+  h1 {
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
 }

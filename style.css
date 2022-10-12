@@ -352,7 +352,29 @@ header nav ul a {
 .sec6 .discord {
   display: flex;
   align-items: center;
-  gap: 25%;
+  gap: 31%;
+}
+
+footer {
+  padding: 5% 5%;
+  padding-bottom: 1%;
+  color: #ffffff;
+}
+footer h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+footer .socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+footer img {
+  width: 40px;
+  height: 30px;
 }
 
 @media (max-width: 884px) {
@@ -425,4 +447,11 @@ header nav ul a {
   .sec2 img {
     width: 80%;
   }
+}
+.sec3 h1 {
+  font-size: 20px;
+  -webkit-text-stroke-width: 1px;
+}
+.sec3 p {
+  font-size: 12px;
 }/*# sourceMappingURL=style.css.map */
