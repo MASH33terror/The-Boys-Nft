@@ -9,6 +9,7 @@
 body {
   background-color: #182e50;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 header {
@@ -154,6 +155,14 @@ header nav ul a {
 .sec3 .semester1 h1 {
   text-align: center;
 }
+.sec3 .semester1 h4 {
+  color: white;
+  font-weight: 800;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: rgb(107, 133, 173);
+  -webkit-text-stroke-width: 2px;
+  font-size: 35px;
+}
 .sec3 .semester1 p {
   color: #ffffff;
   transform: rotate(-0.08deg);
@@ -178,6 +187,15 @@ header nav ul a {
   text-align: center;
   margin-bottom: 30px;
   margin-top: 30px;
+}
+.sec3 .semester2 h4 {
+  color: white;
+  font-weight: 800;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: rgb(107, 133, 173);
+  -webkit-text-stroke-width: 2px;
+  font-size: 35px;
+  padding-bottom: 20px;
 }
 .sec3 .semester2 p {
   color: #fff;
@@ -289,7 +307,7 @@ header nav ul a {
   margin-bottom: 60px;
 }
 .sec5 .name h4 {
-  width: 239px;
+  width: 259px;
   text-align: left;
   color: white;
 }
@@ -311,7 +329,7 @@ header nav ul a {
   justify-content: space-between;
 }
 .sec5 .others img {
-  width: 150px;
+  width: 250px;
 }
 
 .sec6 {
@@ -440,6 +458,7 @@ footer img {
   }
   .sec2 .info h1 {
     font-size: 25px;
+    width: 135px;
   }
   .sec2 .info h2 {
     font-size: 12px;
@@ -453,6 +472,15 @@ footer img {
   }
   .sec3 h3 {
     font-size: 15px;
+  }
+  .sec3 .semester1 h4 {
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    padding-top: 30px;
+  }
+  .sec3 .semester2 h4 {
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
   }
   .sec3 p {
     font-size: 12px;
@@ -475,9 +503,14 @@ footer img {
     font-size: 23px;
   }
   .sec5 .bigsvg img {
-    width: 200%;
+    width: 90%;
   }
   .sec5 .others img {
-    width: 50PX;
+    width: 90%;
+  }
+  .flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
   }
 }/*# sourceMappingURL=style.css.map */
