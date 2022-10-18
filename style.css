@@ -435,6 +435,7 @@ footer img {
   #menu-link a {
     margin: 16px 0px;
     font-weight: 400;
+    font-size: 15px;
   }
   #menu-link a::after {
     display: none;
@@ -448,7 +449,7 @@ footer img {
     align-items: center;
   }
   .sec1 .text span {
-    font-size: 20px;
+    font-size: 25px;
   }
   .sec1 .text h1 {
     height: 40px;

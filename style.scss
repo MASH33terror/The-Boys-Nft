@@ -482,6 +482,7 @@ footer {
   }
 }
 @media (max-width: 884px) {
+
   #hamburger {
     display: block;
   }
@@ -518,6 +519,7 @@ footer {
     a {
       margin: 16px 0px;
       font-weight: 400;
+      font-size: 15px;
     }
 
     a::after {
@@ -535,7 +537,7 @@ footer {
     align-items: center;
 
     span {
-      font-size: 20px;
+      font-size: 25px;
     }
 
     h1 {
