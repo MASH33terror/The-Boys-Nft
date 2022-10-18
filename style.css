@@ -119,9 +119,8 @@ header nav ul a {
   font-weight: 800;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-color: rgb(107, 133, 173);
-  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 2px;
   font-size: 72px;
-  filter: blur(1px);
 }
 .sec2 .info {
   text-align: left;
